@@ -1,8 +1,11 @@
 {
-  "name": "aula17",
+  "name": "projeto-agenda",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "10.24.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js --ignore public --ignore frontend",
